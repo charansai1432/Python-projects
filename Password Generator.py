@@ -7,6 +7,7 @@ n_letters = int(input("Enter how many letters you want in your password: "))
 n_numbers = int(input("Enter how many numbers you want in your password: "))
 n_symbols = int(input("Enter how many symbols you want in your password: "))
 password = ""
+
 for num in range(n_letters):
     char = random.choice(letters)
     password += str(char)
