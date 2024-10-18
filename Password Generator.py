@@ -22,6 +22,7 @@ for num in range(n_symbols):
 
 print(password)
 password_list = list(password)
+
 random.shuffle(password_list)
 finally_password = ''.join(password_list)
 print(f"The password after shuffling is ",{finally_password})         #After shuffling the pasword ... the resulted password is finally_password
